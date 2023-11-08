@@ -1,0 +1,7 @@
+reset;
+model pfizer.mod;
+data pfizer.dat;
+option solver cplex;
+solve;
+display NewAllocation, TotalDistance, Disruption;
+
